@@ -7,5 +7,64 @@ body {
 
 #hero {
     text-align: center;
-    padding: 5rem;
+}
+
+#hero > h1 {
+    margin-bottom: 100px;
+}
+
+#hero > img {
+    margin-bottom: 100px;
+    border-radius: 10px;
+    border-width: 5px;
+    border-style: ridge;
+    
+}
+
+#biography {
+    line-height: 20px;
+    margin-bottom: 100px;
+}
+
+
+hr {
+    border-radius: 100%;
+    width: 50%;
+    margin-bottom: 100px;
+}
+
+
+.experience {
+    width: 25rem;
+    margin: 1rem;
+    
+    padding: 1rem;
+    border-width: 1px;
+    border-style: ridge;
+    margin-bottom: 2rem;
+    border-radius: 20px;
+}
+
+.experience > ul li {
+    margin-bottom: 10px;
+}
+
+.experience > h2 {
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.experience > h5 {
+    margin-top: 0%;
+}
+
+
+#experience-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#experience-header {
+    text-align: center;
 }
